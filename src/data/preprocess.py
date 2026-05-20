@@ -36,6 +36,7 @@ class DataPreprocessor:
         df['WeekDay'] = df['Order Date'].dt.dayofweek
 
         # Business feature
+        df['Discount'] = np.random.choice([0,0.05,0.1,0.15,0.2,0.25], size=len(df))
         df['Estimated_Profit'] = df['Sales'] * np.random.uniform(0.1, 0.3, len(df))
         df['Profit_Margin'] = df['Estimated_Profit'] / df['Sales']
 
