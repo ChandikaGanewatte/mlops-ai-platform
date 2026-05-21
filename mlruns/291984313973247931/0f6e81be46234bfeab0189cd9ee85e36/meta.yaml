@@ -1,0 +1,14 @@
+artifact_uri: file:D:/Github project/mlops-ai-platform/mlruns/291984313973247931/0f6e81be46234bfeab0189cd9ee85e36/artifacts
+end_time: 1779334828112
+entry_point_name: ''
+experiment_id: '291984313973247931'
+lifecycle_stage: active
+run_id: 0f6e81be46234bfeab0189cd9ee85e36
+run_name: dazzling-mule-157
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779334807927
+status: 3
+tags: []
+user_id: chand

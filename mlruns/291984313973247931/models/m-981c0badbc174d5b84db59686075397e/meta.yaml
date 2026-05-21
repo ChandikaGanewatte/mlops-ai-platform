@@ -1,0 +1,10 @@
+artifact_location: file:D:/Github project/mlops-ai-platform/mlruns/291984313973247931/models/m-981c0badbc174d5b84db59686075397e/artifacts
+creation_timestamp: 1779338918456
+experiment_id: '291984313973247931'
+last_updated_timestamp: 1779338931337
+model_id: m-981c0badbc174d5b84db59686075397e
+model_type: null
+name: model
+source_run_id: 1a50969a5fbd499ebe4048e53783069d
+status: 2
+status_message: null

@@ -1,0 +1,14 @@
+artifact_uri: file:D:/Github project/mlops-ai-platform/mlruns/291984313973247931/4e04162a8820477ba91fb7b28af74415/artifacts
+end_time: 1779339643258
+entry_point_name: ''
+experiment_id: '291984313973247931'
+lifecycle_stage: active
+run_id: 4e04162a8820477ba91fb7b28af74415
+run_name: nervous-crab-590
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779339626135
+status: 3
+tags: []
+user_id: chand

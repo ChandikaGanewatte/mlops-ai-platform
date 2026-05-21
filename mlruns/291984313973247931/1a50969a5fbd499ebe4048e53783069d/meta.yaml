@@ -1,0 +1,14 @@
+artifact_uri: file:D:/Github project/mlops-ai-platform/mlruns/291984313973247931/1a50969a5fbd499ebe4048e53783069d/artifacts
+end_time: 1779338931402
+entry_point_name: ''
+experiment_id: '291984313973247931'
+lifecycle_stage: active
+run_id: 1a50969a5fbd499ebe4048e53783069d
+run_name: worried-kit-648
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779338911320
+status: 3
+tags: []
+user_id: chand
