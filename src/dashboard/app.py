@@ -1,8 +1,9 @@
 import streamlit as st
 import pandas as pd
-import requests
+import joblib
 import matplotlib.pyplot as plt
 import seaborn as sns
+import os
 
 st.set_page_config(page_title="MLOPS BI Dashboard", layout="wide")
 
@@ -100,12 +101,11 @@ elif page == "🔮 Profit Prediction":
             "WeekDay": weekday
         }
 
-        try:
-            response = requests.post("http://127.0.0.1:8000/predict", json=payload)
+        model = joblib.load("models/model.pkl")  # ADD THIS
+        input_data = pd.DataFrame([payload])   
+        
+        prediction = model.predict(input_data)
 
-            result = response.json()
-
-            st.success(f"Predicted Profit: {result['predicted_profit']:.2f}")
-
-        except Exception as e:
-            st.error(f"API Error: {e}")
+        st.success(
+            f"Predicted Profit: {prediction[0]:.2f}"
+        )
